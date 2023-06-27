@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.3.js"integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <title>Game-Top-Down</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <!--Fundo da tela (mapa) -->
+    <img id="fundo" src="img/fundo.jpeg">
+    <!--uns enfeite do proprio jogo -->
+    <div class="container">
+        <img src="img/hp.png" class="hp">
+        <img src="img/boss.png" class="boss">
+    </div>
+    <!--Class(Hollow)=Personagem (sprite), Id(Hollow)= animação no js do personagem-->
+        <div class="Hollow" id="Hollow"></div>
+        <div id="joy">
+            <button id="Cima">⮝</button>
+            <button id="Baixo">⮟</button>
+            <button id="Direita">⮞</button>
+            <button id="Esquerda">⮜</button>
+        </div>
+        <!--são os objetos que o personagem passa por tras-->
+        <div class="fundo1"><img src="img/fundo1.png"></div>
+        <div class="fundo2"><img src="img/fundo2.png"></div>
+    <script src="js/style.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body{
+    background-color: #627130;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+    
+#fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+  
+.hp {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.boss {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(75%);
+}
+
+#joy{
+    margin-left: 5%;
+    margin-top: 30%;
+    width: 0%;
+    display: flex;
+}
+
+#Cima,#Baixo,#Direita,#Esquerda{
+    padding: 10px;
+    background-color: #2e9b66;
+    border-radius: 7px;
+    width: 60px;
+    height: 40px;
+    position: relative;
+}
+
+.Hollow{
+    background-image: url(../img/spr-f.png);
+    width: 110px;
+    height: 160px;  
+    position: relative;
+    left: 300px;
+    top: 600px;
+}
+
+.fundo1{
+    left: 675px;
+    top: 370px;
+    position: absolute;
+}
+
+.fundo2{
+    left: 440px;
+    top: 350px;
+    position: absolute;
+}
+
+/*ele ta durin coitado, n achei ele se mexendokkkkjk*/
+
+@keyframes cima{
+    0%{background-image: url(../img/spr-c.png);}
+}
+
+@keyframes baixo{
+    0%{background-image: url(../img/spr-f.png);}
+}
+
+@keyframes direita{
+    0%{background-image: url(../img/spr-d.png);}
+}
+
+@keyframes esquerda{
+    0%{background-image: url(../img/spr-e.png);}
+}
